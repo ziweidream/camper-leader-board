@@ -72,7 +72,8 @@ class App extends React.Component {
       < tbody >
         {rows}
         < /tbody>
-          < /table>) } } const LeaderRow = (props) => {
+          < /table>) } } 
+         const LeaderRow = (props) => {
               return (<tr>
                 <td>
                   {props.data.id}
