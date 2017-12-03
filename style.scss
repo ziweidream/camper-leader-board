@@ -1,0 +1,59 @@
+@mixin text-align() {
+  text-align: center;
+}
+$border: 1px solid #b3b3b3;
+$row-color: #d9d9d9;
+$font-stack: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+#wrapper {
+  background-color: grey;
+
+  #panel {
+    background-color: green;
+    height: 40px;
+
+    #logo {
+      border-radius: 50%;
+    }
+  }
+
+  table {
+    margin: 0 auto;
+    width: 75%;
+    font-family: $font-stack;
+    border-collapse: collapse;
+
+    caption {
+      background-color: green;
+      text-align: center;
+      color: white;
+      font-size: 18px;
+    }
+
+    th {
+      background-color: $row-color;
+      border: $border;
+      padding: 10px;
+    }
+
+    td:nth-child(3),
+    td:nth-child(4),
+    th:nth-child(3),
+    th:nth-child(4) {
+      @include text-align();
+    }
+
+    tr:nth-child(even) {
+      background-color: $row-color;
+    }
+
+    tr:nth-child(odd) {
+      background-color: white;
+    }
+
+    td {
+      border: $border;
+      padding: 10px;
+    }
+  }
+}
