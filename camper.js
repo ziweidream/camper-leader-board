@@ -66,8 +66,8 @@ class App extends React.Component {
       </thead>
       < tbody >
         {rows}
-        < /tbody>
-          < /table>)
+      < /tbody>
+    < /table>)
   }
 }
 const LeaderRow = (props) => {
