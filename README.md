@@ -1,3 +1,3 @@
-# camper-leader-board
-Free Code Camp React Challenge - Build A Camper Leaderboard with React       [DEMO here](https://ziweidream.github.io/camper-leader-board/)
+# camper-leader-board   &nbsp; &nbsp; &nbsp;  [DEMO here](https://ziweidream.github.io/camper-leader-board/)
+Free Code Camp React Challenge - Build a Camper Leaderboard with React      
 
